@@ -9,13 +9,13 @@ package app;
  *
  * @author Diego
  */
-public class CharBase {
+public class CharBase implements IUp{
     
-    private double forca;
-    private double agilidade;
-    private double inteligencia;
-    private double hp;
-    private double mp;
+    protected double forca;
+    protected double agilidade;
+    protected double inteligencia;
+    protected double hp;
+    protected double mp;
 
     public double getForca() {
         return forca;
@@ -64,7 +64,13 @@ public class CharBase {
         this.hp = hp;
         this.mp = mp;
     }
-    
-    
+
+    @Override
+    public void LvlUp() {
+        this.forca *= 1.2;
+        this.agilidade *= 1.2;
+        this.inteligencia *= 1.2;
+        
+    }
     
 }

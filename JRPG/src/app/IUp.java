@@ -9,11 +9,6 @@ package app;
  *
  * @author Diego
  */
-public class Archer extends CharBase {
-
-    public Archer(double forca, double agilidade, double inteligencia, double hp, double mp) {
-        super(forca, agilidade, inteligencia, hp, mp);
-    }
-    
-    
+public interface IUp {
+    void LvlUp();
 }
