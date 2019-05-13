@@ -3,16 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package app;
+package app.armor.glove;
 
 /**
  *
  * @author Diego
  */
-public class Mage extends CharBase{
+public class GloveHelmet extends GloveBase{
 
-    public Mage(double forca, double agilidade, double inteligencia, double hp, double mp) {
-        super(forca, agilidade, inteligencia, hp, mp);
+    public GloveHelmet(double armorBase) {
+        super(2);
     }
+    
+    
     
 }

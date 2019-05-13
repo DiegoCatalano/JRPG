@@ -5,6 +5,9 @@
  */
 package app;
 
+import app.armor.helmet.IronHelmet;
+import app.heros.Warrior;
+
 /**
  *
  * @author Diego
@@ -16,6 +19,12 @@ public class Main {
      */
     public static void main(String[] args) {
         
+        Warrior w = new Warrior(1, 1, 1, 1, 1);
+        w.LvlUp();
+        w.EquipHelmet(new IronHelmet(0));
+        
+        double forca = w.getForca();
+        System.out.println(forca);
         
     }
     

@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package app;
+package app.heros;
 
 /**
  *
  * @author Diego
  */
-public class Warrior extends CharBase{
+public class Warrior extends CharBase {
+    
     
     public Warrior(double forca, double agilidade, double inteligencia, double hp, double mp) {
         super(forca, agilidade, inteligencia, hp, mp);
@@ -23,7 +24,5 @@ public class Warrior extends CharBase{
         this.hp += 250;
         this.mp += 30;
     }
-    
-    
     
 }

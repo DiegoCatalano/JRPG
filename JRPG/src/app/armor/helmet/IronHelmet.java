@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package app;
+package app.armor.helmet;
 
 /**
  *
  * @author Diego
  */
-public interface IUp {
-    void LvlUp();
+public class IronHelmet extends HelmetBase{
+
+    public IronHelmet(double armorBase) {
+        super(2);
+    }
+    
+    
+    
 }
